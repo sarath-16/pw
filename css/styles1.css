@@ -1,0 +1,16 @@
+body{
+  background-color: #ccf2f4;
+}
+  hr{
+
+    border-style: none;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+  }
+  h1{
+    color: #276678;
+  }
+  h3{
+    color: #276678;
+  }
