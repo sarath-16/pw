@@ -47,6 +47,23 @@ a{
 	color: #000;
 }
 
+.marquee{
+    overflow: hidden;
+	     -webkit-animation: marquee 20s linear infinite;
+}
+
+.marquee1{
+    overflow: hidden;
+	     -webkit-animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+    0%   { left:0 }
+    100% { left:100% }
+}
+
+@keyframes marquee1 {
+    100%   { right:100% }
+    0% { right:0 }
 /*===================*/
 /* WOOBLE VERTICAL
 /*===================*/
