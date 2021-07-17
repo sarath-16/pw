@@ -157,13 +157,9 @@ a{
 }
 @keyframes marquee {
     0%   { left:0 }
-    100% { left:100% }
+    100% { left:90% }
 }
 
-@keyframes marquee1 {
-    100%   { right:100% }
-    0% { right:0 }
-}
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
